@@ -4,9 +4,7 @@ import vn.com.gsoft.services.model.system.Profile;
 
 import java.util.Optional;
 
-public interface UserService extends BaseService {
+public interface UserService {
     Optional<Profile> findUserByToken(String token);
-
-    Optional<Profile> findUserByUsername(String token);
 
 }

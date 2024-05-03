@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import vn.com.gsoft.services.constant.PathContains;
 import vn.com.gsoft.services.model.dto.NoteServicesReq;
-import vn.com.gsoft.services.response.BaseResponse;
+import vn.com.gsoft.services.model.system.BaseResponse;
 import vn.com.gsoft.services.service.NoteServicesService;
 import vn.com.gsoft.services.util.system.ResponseUtils;
 

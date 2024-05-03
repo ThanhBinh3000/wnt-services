@@ -21,11 +21,6 @@ public class NoteServicesReq extends BaseRequest {
     private String storeCode;
     private BigDecimal totalMoney;
     private String description;
-    private Integer recordStatusId;
-    private Date created;
-    private Date modified;
-    private Integer createdByUserId;
-    private Integer modifiedByUserId;
     private Boolean isModified;
     private Integer idDoctor;
     private String barCode;
